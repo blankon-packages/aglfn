@@ -1,0 +1,29 @@
+aglfn (1.7-3blankon1) experimental; urgency=medium
+
+  * Testing
+
+ -- AnTo SamalonA <ansamsoftdev@gmail.com>  Sat, 26 Aug 2017 23:12:08 +0800
+
+aglfn (1.7-3) unstable; urgency=low
+
+  * Team upload
+  * Update Standards to 3.9.5 (checked)
+  * Bump debhelper compatibility to 9
+  * Use git for packaging: adapt Vcs-* fields
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 03 Jan 2014 16:36:59 +0100
+
+aglfn (1.7-2) unstable; urgency=low
+
+  * Fix the homepage and watch file links
+  * Bump Standards-Version, no changes needed
+  * Enable parallel build mode
+  * Add Vcs-* fields
+
+ -- Paul Wise <pabs@debian.org>  Wed, 01 May 2013 14:55:44 +0800
+
+aglfn (1.7-1) unstable; urgency=low
+
+  * Initial release (Closes: #608261)
+
+ -- Paul Wise <pabs@debian.org>  Wed, 29 Dec 2010 19:43:21 +0800

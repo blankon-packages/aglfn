@@ -1,0 +1,27 @@
+Source: aglfn
+Section: fonts
+Priority: extra
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Paul Wise <pabs@debian.org>
+Build-Depends: debhelper (>= 9~)
+Standards-Version: 3.9.5
+Homepage: http://sourceforge.net/adobe/aglfn/
+Vcs-Git: git://anonscm.debian.org/pkg-fonts/aglfn.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-fonts/aglfn.git;a=summary
+
+Package: aglfn
+Architecture: all
+Depends: ${misc:Depends}
+Description: Adobe Glyph List For New Fonts
+ AGL (Adobe Glyph List) maps glyph names to Unicode values for the
+ purpose of deriving content. AGLFN (Adobe Glyph List For New Fonts) is a
+ subset of AGL that excludes the glyph names associated with the PUA
+ (Private Use Area), and is meant to specify preferred glyph names for
+ new fonts. Also included is the ITC Zapf Dingbats Glyph List, which is
+ similar to AGL in that it maps glyph names to Unicode values for the
+ purpose of deriving content, but only for the glyphs in the ITC Zapf
+ Dingbats font.
+ .
+ Be sure to visit the AGL Specification and Developer Documentation pages
+ for detailed information about naming glyphs, interpreting glyph names,
+ and developing OpenType fonts.

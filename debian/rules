@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+%:
+	dh $@ --parallel
+
+V=1.7
+
+get-orig-source:
+	wget https://downloads.sourceforge.net/project/aglfn.adobe/readme.mkd
+	wget https://downloads.sourceforge.net/project/aglfn.adobe/aglfn.txt
+	wget https://downloads.sourceforge.net/project/aglfn.adobe/glyphlist.txt
+	wget https://downloads.sourceforge.net/project/aglfn.adobe/zapfdingbats.txt
+	tar zcf aglfn_$(V).orig.tar.gz readme.mkd aglfn.txt glyphlist.txt zapfdingbats.txt
+	rm readme.mkd aglfn.txt glyphlist.txt zapfdingbats.txt
